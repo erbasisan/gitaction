@@ -50,6 +50,7 @@ jobs:
           echo  下载成功
           chmod   777  aaa.sh
           ./aaa.sh
+          echo  运行完毕
           ls
           #echo    $xxx>a.txt
           #curl -T  a.txt      -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/a.txt
