@@ -40,7 +40,7 @@ jobs:
           cd   ${{github.workspace}}
           cd  ..
           # mkdir  folderaaa
-          cd  /home
+          cd  /home/runneradmin
           ls
           for i in {0..2}; {  echo $(date);};
 
