@@ -30,11 +30,14 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
+            # 步骤，这里只写了一个步骤，${GITHUB_WORKSPACE}，${{github.workspace}}/../.github/workspace， /./bbb.sh
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
           echo  pwd  && cd .. &&   cd .. &&     cd .. &&   ls    
+          cd   ${GITHUB_WORKSPACE}
+          ls
           for i in {0..2}; {  echo $(date);};
 
 
