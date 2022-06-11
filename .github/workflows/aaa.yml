@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo  pwd  && cd .. &&   cd .. &&     cd .. &&   ls    
-          for (( i = 0 ; i < 5; i++ ));do;echo  hhhhhh   ;done
+          for i in {0..2}; {echo $(date);sleep 0;};
 
 
 
