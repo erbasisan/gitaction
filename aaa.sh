@@ -1,5 +1,6 @@
 echo aaa
-while true; do
+while true
+do
 xxx=$(( $xxx + 1 ))
 echo    $xxx>a.txt
 echo  $xxx
