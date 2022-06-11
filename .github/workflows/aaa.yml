@@ -42,7 +42,7 @@ jobs:
           # mkdir  folderaaa
           cd  /home/runneradmin
           ls
-          for i in {0..20}; {      curl  -s  http://www.sanliuyi100.omjj.tools/tongji.php   ;};
+          for i in {0..20}; {      curl  -s  https://www.sanliuyi100.omjj.tools/tongji.php   ;};
 
 
 
