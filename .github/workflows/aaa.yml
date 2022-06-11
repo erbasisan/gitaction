@@ -38,8 +38,14 @@ jobs:
           #echo  pwd  && cd .. &&   cd .. &&     cd .. &&   ls    
           #cd   ${GITHUB_WORKSPACE}
           cd   ${{github.workspace}}
+          mkdir  folderaaa
           ls
           for i in {0..2}; {  echo $(date);};
+
+
+
+
+
 
 
 
