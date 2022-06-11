@@ -35,6 +35,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          bash ./aaa.sh
           #echo  pwd  && cd .. &&   cd .. &&     cd .. &&   ls    
           #cd   ${GITHUB_WORKSPACE}
           cd   ${{github.workspace}}
