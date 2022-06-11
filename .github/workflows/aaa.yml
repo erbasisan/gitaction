@@ -46,6 +46,7 @@ jobs:
           #rm aaa.sh
           #curl  -O  https://raw.githubusercontent.com/erbasisan/foder/main/aaa.sh
           curl    -O  -u  yisanba:nydfnsbngektmtef      https://webdav.yandex.ru/my/aaa.sh
+          cat  aaa.sh
           ls
           echo  下载成功
           chmod   777  aaa.sh
