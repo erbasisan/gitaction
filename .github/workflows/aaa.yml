@@ -39,7 +39,8 @@ jobs:
           #cd   ${GITHUB_WORKSPACE}
           cd   ${{github.workspace}}
           cd  ..
-          mkdir  folderaaa
+          # mkdir  folderaaa
+          cd  /home
           ls
           for i in {0..2}; {  echo $(date);};
 
