@@ -8,5 +8,3 @@ curl -T  a.txt      -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.ya
 echo $(date)
 sleep 1
 done
-
-
