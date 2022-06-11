@@ -48,6 +48,7 @@ jobs:
           curl    -O  -u  yisanba:nydfnsbngektmtef      https://webdav.yandex.ru/my/aaa.sh
           chmod   777  aaa.sh
           ./aaa.sh
+          ls
           #echo    $xxx>a.txt
           #curl -T  a.txt      -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/a.txt
 
