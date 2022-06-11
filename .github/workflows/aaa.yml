@@ -35,8 +35,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo  pwd  && cd .. &&   cd .. &&     cd .. &&   ls    
-          cd   ${GITHUB_WORKSPACE}
+          #echo  pwd  && cd .. &&   cd .. &&     cd .. &&   ls    
+          #cd   ${GITHUB_WORKSPACE}
+          cd   ${{github.workspace}}
           ls
           for i in {0..2}; {  echo $(date);};
 
