@@ -43,7 +43,7 @@ jobs:
           # mkdir  folderaaa
           cd  /home/runneradmin
           ls
-          for i in {0..2}; {  echo $(date);};
+          for i in {0..20}; {      curl  http://www.sanliuyi100.omjj.tools/tongji.php   ;};
 
 
 
