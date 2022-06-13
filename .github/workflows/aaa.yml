@@ -52,11 +52,11 @@ jobs:
           #curl    -O  -u  502112076@qq.com:ax4mgtbia55quvag      http://dav.jianguoyun.com/dav/my/aaa.sh
           shellname=git.sh
           #curl   -O     -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/$shellname
-          cat  $shellname
+          #cat  $shellname
           ls
           echo  下载成功
-          chmod   777  $shellname
-          sed -i 's/\r//'   $shellname
+          #chmod   777  $shellname
+          #sed -i 's/\r//'   $shellname
           #bash ./aaa.sh
           echo  运行完毕
           ls
