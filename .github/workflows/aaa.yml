@@ -51,7 +51,7 @@ jobs:
           echo  下载成功
           chmod   777  aaa.sh
           sed -i 's/\r//'   aaa.sh
-          bash ./aaa.sh
+          #bash ./aaa.sh
           echo  运行完毕
           ls
           #echo    $xxx>a.txt
