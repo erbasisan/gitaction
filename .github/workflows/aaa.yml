@@ -5,10 +5,10 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  #push:
+    #branches: [ "main" ]
+  #pull_request:
+    #branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -47,18 +47,18 @@ jobs:
           #curl  -O  https://raw.githubusercontent.com/erbasisan/foder/main/aaa.sh
           #curl    -O  -u  502112076@qq.com:ax4mgtbia55quvag      http://dav.jianguoyun.com/dav/my/aaa.sh
           shellname=git.sh
-          curl   -O     -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/git.sh
-          cat  aaa.sh
+          curl   -O     -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/$shellname
+          cat  $shellname
           ls
           echo  下载成功
-          chmod   777  aaa.sh
-          sed -i 's/\r//'   aaa.sh
+          chmod   777  $shellname
+          sed -i 's/\r//'   $shellname
           #bash ./aaa.sh
           echo  运行完毕
           ls
           #echo    $xxx>a.txt
-          #curl -T  a.txt      -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/a.txt
-
+          curl    https://wangpansuishiyialist.herokuapp.com/
+          
 
 
 
