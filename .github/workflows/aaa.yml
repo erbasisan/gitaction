@@ -61,7 +61,7 @@ jobs:
           echo  运行完毕
           ls
           #echo    $xxx>a.txt
-          curl    https://wangpansuishiyialist.herokuapp.com/
+          curl    https://sanliuyi100alist2843.herokuapp.com/
           curl    https://wangpanalistsbeml.herokuapp.com/
           
 
