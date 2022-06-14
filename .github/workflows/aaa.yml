@@ -54,7 +54,7 @@ jobs:
           #curl   -O     -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/$shellname
           #cat  $shellname
           ls
-          echo  下载成功
+          #echo  下载成功
           #chmod   777  $shellname
           #sed -i 's/\r//'   $shellname
           #bash ./aaa.sh
