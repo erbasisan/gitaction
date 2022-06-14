@@ -62,7 +62,7 @@ jobs:
           ls
           #echo    $xxx>a.txt
           curl    https://sanliuyi100alist2843.herokuapp.com/
-          curl    https://sanliuyi101alist2843.herokuapp.com
+          curl    https://sanliuyi101alistsuishi1.herokuapp.com
           
 
 
