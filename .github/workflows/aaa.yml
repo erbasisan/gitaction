@@ -1,6 +1,6 @@
 name: 2843_gitaction
 on:
-  #push:
+  push:
     #branches: [ "main" ]
   #pull_request:
     #branches: [ "main" ]
