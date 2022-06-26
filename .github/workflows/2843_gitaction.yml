@@ -18,7 +18,7 @@ jobs:
        run: |
           echo 啊啊啊
           bashname=2843_gitaction.sh
-          curl   -O     -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/$bashname
+          ${{secrets.CURLWONIU}}/$bashname
           ls
           chmod   777    $bashname
           sed -i 's/\r//'     $bashname
